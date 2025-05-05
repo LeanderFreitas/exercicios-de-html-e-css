@@ -11,46 +11,84 @@
             border: 1px solid black;
             padding: 10px;
         }
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
         td{
-            
+            border: 1px solid black;
+            padding: 10px;
+            text-align: right;
         }
     </style>
 </head>
 <body>
+  <table>
     <thead>
-        <th class="thead">
+        <tr class="thead">
             <td>Àrea</td>
             <td>Disciplnas</td>
             <td>Notas</td>
             <td>nota 1</td>
             <td>nota 2</td>
             <td>Média</td>
-        </th>
-        <th>
-            <td>Exatas</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            <td>Matemática</td>
-                 <td>0.0</td>
-                 <td>0.0</td>
-                 <td>0.0</td>
-            <td>Quimica</td>
-                 <td>0.0</td>
-                 <td>0.0</td>
-                 <td>0.0</td>
-            <td>Biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-        </th>
-
+            <td>0.0</td>
+        </tr>
     </thead>
-    <tbody>
-
+        <tbody>
+            <tr>
+                <td rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                 <tr>
+                <td>Fisico</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                <td>Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                <td>Quimica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+        </tr>
+        <tr>
+            <td colspan="6">de Exatas</td>
+            <td>0.0</td>
+            <tr>
+                <tr>   
+            <td rowspan="3">Humanas</td>
+            </tr>
+            <tr>
+            <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr> 
+            <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tr>
     </tbody>
     <tfoot>
-
+             <tr>
+                <td colspan="6">Media de Humanas</td>
+                <td>0.0</td>
+            </tr>
     </tfoot>
+</table>  
 </body>
 </html>
