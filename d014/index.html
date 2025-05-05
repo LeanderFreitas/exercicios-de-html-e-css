@@ -11,6 +11,9 @@
             border: 1px solid black;
             padding: 10px;
         }
+        .cabeça{
+            text-align: center;
+        }
         th{
             border: 1px solid black;
             padding: 10px;
@@ -21,13 +24,23 @@
             padding: 10px;
             text-align: right;
         }
+        .destaque{
+            text-align: left;
+            color: white;
+            background-color: gray;
+        }
+        #destaque1{
+            text-align: center;
+            color: white;
+            background-color: gray;
+        }
     </style>
 </head>
 <body>
   <table>
     <thead>
-        <tr class="thead">
-            <td>Àrea</td>
+        <tr class="cabeça">
+            <td >Àrea</td>
             <td>Disciplnas</td>
             <td>Notas</td>
             <td>nota 1</td>
@@ -63,8 +76,8 @@
                 </tr>
         </tr>
         <tr>
-            <td colspan="6">de Exatas</td>
-            <td>0.0</td>
+            <td class="destaque" colspan="6">de Exatas</td>
+            <td id="destaque1">0.0</td>
             <tr>
                 <tr>   
             <td rowspan="3">Humanas</td>
@@ -85,8 +98,8 @@
     </tbody>
     <tfoot>
              <tr>
-                <td colspan="6">Media de Humanas</td>
-                <td>0.0</td>
+                <td class="destaque" colspan="6">Media de Humanas</td>
+                <td id="destaque1">0.0</td>
             </tr>
     </tfoot>
 </table>  
